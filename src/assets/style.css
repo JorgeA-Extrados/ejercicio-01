@@ -1,7 +1,62 @@
-
 .titulo {
   font-weight: bold !important;
-  color: rgb(133, 128, 133);
+  color: rgb(156, 64, 156) !important;
   font-size: 30px !important;
-  margin-top: 3% !important;
+  margin: 3% !important;
+  text-align: center !important;
+}
+
+.name {
+  font-weight: bold !important;
+  color: rgb(161, 194, 42) !important;
+  font-size: 20px !important;
+  margin: 3% 0 !important;
+  text-align: center !important;
+}
+
+.selectCant {
+  margin-left: 10px !important;
+  width: 100% !important;
+  height: 40px !important;
+  text-align: center !important;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2) !important;
+  transition: box-shadow 0.3s ease-in-out !important;
+  margin-bottom: 10px !important;
+}
+
+.selectCant:hover {
+  box-shadow: 0 8px 16px rgba(64, 97, 63, 0.4) !important;
+  border: 0 !important;
+}
+
+.cardCharacter {
+  margin: 0 auto !important;
+  width: 90% !important;
+  max-width: 350px !important;
+  padding: 16px !important;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2) !important;
+  transition: box-shadow 0.3s ease-in-out !important;
+  border-radius: 8px !important;
+  margin-bottom: 20px !important;
+}
+
+.cardCharacter:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4) !important;
+}
+
+.image {
+  width: 100% !important;
+  height: auto !important;
+  border-radius: 8px !important;
+}
+
+.cantPersonaje {
+  margin-left: 5% !important;
+}
+
+@media only screen and (max-width: 600px) {
+  .cantPersonaje {
+    margin-left: -10px !important;
+    margin-top: 15px !important;
+  }
 }
