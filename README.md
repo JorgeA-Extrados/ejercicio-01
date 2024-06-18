@@ -23,7 +23,8 @@ git clone https://github.com/tu-usuario/personajes-rick-and-morty.git
 
 2. Instala las dependencias:
 
-cd personajes-rick-and-morty
+`cd personajes-rick-and-morty`
+
 `npm install`
 
 3. Inicia la aplicación:
